@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projecte de Ciberconvivència</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #fce4ec, #e1bee7);
+      color: #333;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+
+    .text-section {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 20px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      margin-bottom: 3rem;
+    }
+
+    .text-section p {
+      line-height: 1.8;
+      font-size: 1rem;
+      color: #555;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 1rem;
+      padding: 1rem;
+      background: #f8bbd0;
+      border-radius: 20px;
+      box-shadow: inset 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .photo {
+      position: relative;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .photo:hover {
+      transform: rotate(1deg) scale(1.03);
+    }
+
+    .photo img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .caption {
+      position: absolute;
+      bottom: 0;
+      background: rgba(106, 27, 154, 0.7);
+      color: white;
+      width: 100%;
+      text-align: center;
+      padding: 0.5rem;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      h1 { font-size: 1.5rem; }
+      .caption { font-size: 0.8rem; }
+    }
+
+    header {
+      background: linear-gradient(90deg, #6a11cb, #2575fc);
+      color: white;
+      padding: 1.2rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50px;
+      height: 100px;
+    }
+
+    .logo-link {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      color: white;
+    }
+
+    .logo-link img {
+      margin-right: 12px;
+      height: 60px;
+      width: auto;
+    }
+
+    nav#nav {
+      background: linear-gradient(90deg, #ff758c, #ff7eb3);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1.2rem;
+      padding: 1rem;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    }
+
+    nav#nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      background: rgba(255, 255, 255, 0.15);
+      padding: 0.6rem 1.2rem;
+      border-radius: 25px;
+      transition: all 0.3s ease;
+    }
+
+    nav#nav a:hover {
+      background: rgb(248, 172, 137);
+      color: #f65504;
+      transform: scale(1.05);
+    }
+
+    main {
+      padding: 2rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      color: #a14eff;
+    }
+
+    footer {
+      text-align: center;
+      background: linear-gradient(90deg, #6a11cb, #2575fc);
+      color: white;
+      padding: 1rem;
+      font-size: 0.9rem;
+      margin-top: 3rem;
+    }
+
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      nav#nav {
+        flex-direction: column;
+        gap: 0.8rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <a href="index.html" class="logo-link">
+      <img src="logo.png" alt="logo-F1G2" />
+      <h1>NETIQUETA I BONES PRÀCTIQUES DIGITALS</h1>
+    </a>
+  </header>
+
+  <nav id="nav">
+    <a href="Netiqueta.html">Netiqueta</a>
+    <a href="Normes.html">Normes</a>
+    <a href="Fake_News.html">Fake News</a>
+    <a href="Detectar_notícies_falses.html">Detectar Notícies Falses</a>
+    <a href="Conflictes.html">Conflictes</a>
+  </nav>
+
+  <div class="container">
+    <h1>Ciberconvivència Positiva</h1>
+
+    <div class="text-section">
+      <h2>1. Què és la ciberconvivència?</h2>
+      <p>
+        La ciberconvivència és la convivència entre persones a través dels mitjans digitals. Implica respecte, empatia i responsabilitat en l’ús de les tecnologies i xarxes socials. És fonamental per a garantir un espai digital segur i positiu per a tothom.
+      </p>
+    </div>
+
+    <div class="text-section">
+      <h2>2. Problemes habituals</h2>
+      <p>
+        Alguns conflictes comuns són el ciberassetjament, la difusió de notícies falses o la pèrdua de privacitat. També és important gestionar el temps que passem en línia i com ens afecta emocionalment.
+      </p>
+    </div>
+
+    <div class="text-section">
+      <h2>3. Solucions i consells</h2>
+      <p>
+        Verifica la informació abans de compartir-la, no facis comentaris ofensius, protegeix les teves dades personals i, si presencies una situació dolenta, demana ajuda o informa a un adult. Crear un entorn digital sa és responsabilitat de totes i tots.
+      </p>
+    </div>
+
+    <div class="text-section">
+      <h2>4. Problemes a Internet</h2>
+      <p>
+        Els conflictes i problemes a internet són cada vegada més habituals, principalment perquè moltes persones desconeixen les normes de convivència digital o directament no les compleixen. Aquesta manca de respecte o control pot provocar situacions tant en línia com fora del món digital.
+      </p>
+
+      <p>
+        Per exemple: “Als instituts se'ls ha girat feina extra: la de fer de mitjancers entre alumnes que intercanvien retrets, insults o amenaces a través de les xarxes socials. És un fenomen que els últims temps ha anat augmentant i alguna vegada ha acabat en una denúncia davant els Mossos. El cas també ha encès les alarmes davant la possibilitat que apareguin casos de l'anomenat cyberbullying, assetjament a través d'Internet.” <em>(Morrosmanresa, 2012, p.1)</em>
+      </p>
+
+      <p>
+        També cal vigilar amb el que publiquem a internet. Tant si et dediques professionalment a les xarxes socials com si no, els continguts que comparteixes poden afectar la teva reputació personal o professional.
+      </p>
+
+      <p>
+        Per exemple, si tens una certa presència a internet i la gent troba una publicació polèmica teva de fa anys, potser no estarà d’acord amb la teva opinió i comences a rebre crítiques. Això pot provocar que perdis seguidors, reputació i oportunitats, com ara col·laboracions, entrevistes o invitacions a esdeveniments digitals.
+      </p>
+
+      <p>
+        Fins i tot si no ets una figura pública, moltes empreses revisen les xarxes socials dels candidats abans de contractar-los. Si detecten opinions brusques, comentaris ofensius o comportaments no correctes, és molt possible que no t’agafin per aquell lloc de feina.
+      </p>
+
+      <!-- 📸 Aquí pots afegir una imatge relacionada en el futur -->
+      <!-- <img src="https://enllaç-a-la-foto.jpg" alt="Problemes a internet" style="width:100%; margin-top:1rem; border-radius:10px;"> -->
+    </div>
+
+    
+    <div class="gallery">
+      <div class="photo">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4NEFxZuJqPk-snOwSrV7qftBe20Um7lC3_A&s" alt="Respecte digital">
+        <div class="caption">Respecte a les xarxes</div>
+      </div>
+      <div class="photo">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2MgCXSVbJglIrPdb522udCzvrXYtHkw2NeA&s" alt="Privacitat">
+        <div class="caption">Protecció de dades</div>
+      </div>
+      <div class="photo">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROS6xo5cNf_HfS1ZlMPxMpkPx5x4CC5wkpwA&s" alt="Ajuda digital">
+        <div class="caption">Demana ajuda</div>
+      </div>
+      <div class="photo">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-yQAqp6XlGm9TSzc-ZpXF6ALa3LUdKNkSrQ&s" alt="Notícies falses">
+        <div class="caption">No comparteixis fake news</div>
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+    &copy; 2025 Grup F1G2 – Pàgina de bones pràctiques digitals
+  </footer>
+
+</body>
+</html>

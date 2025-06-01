@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fake News - F1G2</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #e0f7fa, #fce4ec);
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(90deg, #6a11cb, #2575fc);
+      color: white;
+      padding: 1.2rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50px;
+      height: 100px;
+    }
+
+    .logo-link {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      color: white;
+    }
+
+    .logo-link img {
+      margin-right: 12px;
+      height: 60px;
+      width: auto;
+    }
+
+    nav#nav {
+      background: linear-gradient(90deg, #ff758c, #ff7eb3);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1.2rem;
+      padding: 1rem;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    }
+
+    nav#nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      background: rgba(255, 255, 255, 0.15);
+      padding: 0.6rem 1.2rem;
+      border-radius: 25px;
+      transition: all 0.3s ease;
+    }
+
+    nav#nav a:hover {
+      background: rgb(248, 172, 137);
+      color: #f65504;
+      transform: scale(1.05);
+    }
+
+    main {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      color: #a14eff;
+    }
+
+    section {
+      background: white;
+      padding: 2rem;
+      margin-bottom: 2rem;
+      border-radius: 20px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+      transition: transform 0.3s ease;
+    }
+
+    section:hover {
+      transform: translateY(-5px);
+    }
+
+    h3 {
+      color: #bd92eb;
+      margin-bottom: 1rem;
+    }
+
+    p, ul {
+      color: #555;
+      font-size: 1rem;
+      line-height: 1.6;
+      text-align: justify;
+    }
+
+    ul {
+      padding-left: 1.5rem;
+    }
+
+    li {
+      margin-bottom: 0.6rem;
+    }
+
+    .image-container {
+      margin-bottom: 1.5rem;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+      max-height: 200px;
+    }
+
+    .image-container:hover {
+      transform: scale(1.02);
+    }
+
+    .image-container img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      display: block;
+    }
+    .video-container {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      margin-bottom: 1.5rem;
+    }
+
+    .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    footer {
+      text-align: center;
+      background: linear-gradient(90deg, #6a11cb, #2575fc);
+      color: white;
+      padding: 1rem;
+      font-size: 0.9rem;
+      margin-top: 3rem;
+      border-radius: 0 0 20px 20px;
+    }
+
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      nav#nav {
+        flex-direction: column;
+        gap: 0.8rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <a href="index.html" class="logo-link">
+      <img src="logo.png" alt="logo-F1G2" />
+      <h1>NETIQUETA I BONES PRÀCTIQUES DIGITALS</h1>
+    </a>
+  </header>
+
+  <nav id="nav">
+    <a href="Netiqueta.html">Netiqueta</a>
+    <a href="Normes.html">Normes</a>
+    <a href="Fake_News.html">Fake News</a>
+    <a href="Detectar_notícies_falses.html">Detectar Notícies Falses</a>
+    <a href="Conflictes.html">Conflictes</a>
+  </nav>
+
+  <main>
+    <h2 class="section-title">Fake News</h2>
+
+    <section>
+      <div class="image-container">
+        <img src="https://www.unedtudela.es/archivos_publicos/qnews/9614/fake23556861920.jpg" alt="Exemple de Fake News" />
+      </div>
+      <h3>Què són les Fake News?</h3>
+      <p>
+        Les fake news són notícies falses que circulen per internet i generen un cercle perillós de desinformació. Aquestes notícies es poden replicar milers de vegades en segons, alimentant una xarxa de contingut enganyós.
+        Es poden difondre a través de la ràdio, la televisió, la premsa escrita (diaris o revistes) i, especialment, a través de les xarxes socials.
+      </p>
+    </section>
+
+    <section>
+      <div class="image-container">
+        <img src="https://www.segurilatam.com/wp-content/uploads/sites/5/2022/01/fake-news-lupa.jpg" alt="Tipus d'informació falsa" />
+      </div>
+      <h3>Tipus d’informació falsa</h3>
+      <ul>
+        <li><strong>Sàtira/parodia:</strong> No pretén enganyar o fer mal.</li>
+        <li><strong>Contingut enganyós:</strong> Ús de la informació per incriminar algú o alguna cosa de manera manipulada.</li>
+        <li><strong>Contingut impostor:</strong> Suplanta fonts genuïnes per enganyar.</li>
+        <li><strong>Contingut fabricat:</strong> Informació inventada amb intenció de perjudicar o enganyar.</li>
+        <li><strong>Connexió falsa:</strong> El titular, la imatge o la llegenda no concorden amb el contingut.</li>
+        <li><strong>Context fals:</strong> El contingut real es presenta amb informació fora de context.</li>
+        <li><strong>Contingut manipulat:</strong> Informació o imatges reals modificades per enganyar o perjudicar.</li>
+      </ul>
+    </section>
+
+    <section>
+        <div class="video-container">
+          <iframe src="https://www.youtube.com/embed/OhXWCh6FVVU"
+                  title="Com detectar Fake News"
+                  frameborder="0"
+                  allowfullscreen></iframe>
+        </div>
+        <h3>Com detectar les Fake News?</h3>
+        <p>
+          Per detectar notícies falses cal verificar les fonts, llegir més enllà del titular, buscar altres versions de la mateixa notícia, comprovar l’autoria i dubtar de contingut massa emocional o impactant.
+        </p>
+      </section>
+        
+
+    <section>
+      <div class="image-container">
+        <img src="https://optimainfinito.com/wp-content/uploads/2021/02/interrogantes-variados-como-ejemplo-de-los-tipos-de-preguntas-y-la-efectividad-850x0-c-default.jpg" alt="Per què es difonen les Fake News?" />
+      </div>
+      <h3>Per què es difonen?</h3>
+      <p>
+        Es difonen perquè apel·len a les emocions, reforcen creences existents, es comparteixen ràpidament en xarxes i sovint es generen amb intencions polítiques, econòmiques o per manipulació.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Grup F1G2 – Informació sobre Fake News i bones pràctiques digitals.
+  </footer>
+
+</body>
+</html>
