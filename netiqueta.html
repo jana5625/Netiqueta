@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Secció - F1G2</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #e0f7fa, #fce4ec);
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(90deg, #6a11cb, #2575fc);
+      color: white;
+      padding: 1.2rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50px;
+      height: 100px;
+    }
+
+    .logo-link {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      color: white;
+    }
+
+    .logo-link img {
+      margin-right: 12px;
+      height: 60px;
+      width: auto;
+    }
+
+    nav#nav {
+      background: linear-gradient(90deg, #ff758c, #ff7eb3);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1.2rem;
+      padding: 1rem;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    }
+
+    nav#nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      background: rgba(255, 255, 255, 0.15);
+      padding: 0.6rem 1.2rem;
+      border-radius: 25px;
+      transition: all 0.3s ease;
+    }
+
+    nav#nav a:hover {
+      background: rgb(248, 172, 137);
+      color: #f65504;
+      transform: scale(1.05);
+    }
+
+    main {
+      padding: 2rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      color: #a14eff;
+    }
+
+    .card-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+    }
+
+    .card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 20px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+      text-align: center;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 15px;
+      margin-bottom: 1rem;
+    }
+
+    .card h3 {
+      color: #bd92eb;
+      margin-bottom: 0.8rem;
+    }
+
+    .card p {
+      color: #555;
+      font-size: 1rem;
+      text-align: left;
+    }
+
+    footer {
+      text-align: center;
+      background: linear-gradient(90deg, #6a11cb, #2575fc);
+      color: white;
+      padding: 1rem;
+      font-size: 0.9rem;
+      margin-top: 3rem;
+    }
+
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      nav#nav {
+        flex-direction: column;
+        gap: 0.8rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <a href="index.html" class="logo-link">
+      <img src="logo.png" alt="logo-F1G2" />
+      <h1>NETIQUETA I BONES PRÀCTIQUES DIGITALS</h1>
+    </a>
+  </header>
+
+  <nav id="nav">
+    <a href="Netiqueta.html">Netiqueta</a>
+    <a href="Normes.html">Normes</a>
+    <a href="Fake_News.html">Fake News</a>
+    <a href="Detectar_notícies_falses.html">Detectar Notícies Falses</a>
+    <a href="Conflictes.html">Conflictes</a>
+  </nav>
+
+  <main>
+    <h2 class="section-title">Què són les Netiquetes?</h2>
+  
+    <div class="card-container">
+      <!-- Bloc 1: Definició -->
+      <div class="card">
+        <img src="https://etic.fundaciondn.org/wp-content/uploads/Netiqueta-2.png" alt="Definició de Netiqueta">
+        <h3>Definició de Netiqueta</h3>
+        <p>Les Netiquetes són un conjunt de normes bàsiques que ens ajuden a comunicar-nos millor a internet. Són recomanacions útils per escriure de manera clara i respectuosa a plataformes com el correu electrònic, xats, xarxes socials o fòrums.</p>
+      </div>
+  
+      <!-- Bloc 2: Origen -->
+      <div class="card">
+        <img src="https://qph.cf2.quoracdn.net/main-qimg-e2f10df0340d2b768219a54303b12812-lq" alt="Origen de les Netiquetes">
+        <h3>Quan van sorgir?</h3>
+        <p>Les Netiquetes van aparèixer a l’octubre de 1995, quan el correu electrònic es començava a fer servir de manera habitual. Davant la manca de veu o gestos, van sorgir per evitar malentesos en la comunicació escrita digital.</p>
+      </div>
+  
+      <!-- Bloc 3: Funció i utilitat -->
+      <div class="card">
+        <img src="https://png.pngtree.com/png-vector/20230728/ourmid/pngtree-connection-clipart-free-cartoon-vector-illustration-of-two-women-talking-with-png-image_6798225.png" alt="Per a què serveixen les Netiquetes">
+        <h3>Per què serveixen?</h3>
+        <p>Aquestes normes fomenten el respecte i la claredat a internet. Ajuden a evitar conflictes, faltes d’educació i fins i tot la difusió de notícies falses. Són essencials per a una convivència digital saludable.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 Grup F1G2 – Web de pràctiques digitals, Netiqueta.
+  </footer>
+
+</body>
+</html>
